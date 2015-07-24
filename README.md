@@ -1,6 +1,8 @@
 # GettingAndCleaningData
 
-The script run_analysis.R reads in and cleans the Human Activity Recognition Using Smartphones Data Set. 
+This repository contains a code book, "codeBook.txt", and an R script, "run_analysis.R", for the Human Activity Recognition Using Smartphones Data Set
+
+The R script "run_analysis.R" reads in, prepares and summarises the smartphones data set. 
 
 Firstly, it reads in the training and test data sets separately and for each of these data sets, it appends the applicable subject identifiers and activity codes. It then merges the training and test sets, extracts the variables containing the mean and standard deviation (while retaining the subject identifiers and activity codes). Next, it substitutes the descriptive activity names for the numeric codes used in the activity variable. 
 
